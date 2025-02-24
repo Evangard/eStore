@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression testing Suite" verbose="1" configfailurepolicy="continue" parallel="classes" thread-count="1">
+    <test name="All tests">
+        <classes>
+            <class name="tests.login.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
